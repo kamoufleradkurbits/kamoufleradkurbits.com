@@ -1,9 +1,14 @@
 # [kamoufleradkurbits.com](http://kamoufleradkurbits.com) Site
 
+Prerequisities
+
+```
+gem install bundler
+bundler
+```
+
 Build it
 
 ```
-gem install bundler`
-bundler
 jekyll build
 ```
