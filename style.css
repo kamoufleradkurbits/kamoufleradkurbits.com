@@ -1,0 +1,132 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+p a {
+  color: #222;
+}
+
+section.cover {
+  display: flex;
+  height: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+}
+
+section.cover main {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+section.cover main h1 {
+  font-weight: 100;
+  font-size: 40px;
+  margin: 0 0 10px 0;
+}
+
+section.cover main p {
+  margin: 0 0 10px 0;
+}
+
+section.cover footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+section.cover footer div {
+  margin: 0 auto;
+}
+
+section.cover footer div a {
+  display: block;
+  padding: 40px;
+}
+
+section.doc main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+section.doc a[name=content] {
+  margin-top: -100px;
+}
+
+section.doc main header {
+  border-bottom: 1px solid #666;
+  margin-bottom: 40px;
+}
+
+section.doc main header h2 {
+  font-weight: 100;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #666;
+  padding: 0 0 20px 0;
+}
+
+section.doc main header p {
+  margin: 0 0 20px 0;
+}
+
+section.doc main header p a {
+  color: #222;
+}
+
+section.doc main article {
+  clear: both;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+section.doc main article::after {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+
+section.doc main article aside {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section.doc main article aside h3 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+section.doc main article aside ul {
+  list-style: none;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+section.doc main footer {
+  clear: both;
+  border-top: 1px solid #666;
+  margin-bottom: 100px;
+  text-align: center;
+}
